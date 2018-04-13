@@ -1,0 +1,2 @@
+# CorePhysics
+Core Physics is the perfect tool for students, professionals in the fields of mechanical and electrical engineering and physics enthusiasts alike. The simplicity and functionality of the user interface is the basis of the design framework for Core Physics. The application uses the data provided to solve mathematical physics problems. Just enter your data into the fields provided, leaving only the field which you want to calculate blank.
