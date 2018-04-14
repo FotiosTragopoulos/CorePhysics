@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		23DB163A01F2AD5D9CB21F00B9DED3CA /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A697DF2FCE66AA6D825AB2713FAFD4E /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40791028CDB0BC303427BC2D800C5679 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DB323BB3B2B0A52D555C01DBCD0305 /* SideMenuTransition.swift */; };
 		4CFE88D89278D38F10C08F2165EF1A81 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF7ED29543D1E78DEE7A6BB17CADE /* SideMenu-dummy.m */; };
@@ -25,12 +26,33 @@
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 737119C1405387C2CFA8B8AC609A5996;
+=======
+		05D112BAD5D2F08F5D1E48DD7DF17E05 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A697DF2FCE66AA6D825AB2713FAFD4E /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A0BB978AEC46C69261984EAECE22EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		47D851353461CFE441DAC68BEC57D8EF /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF13F0BB1AB42B2F1C6A72A59BD82F /* UITableViewVibrantCell.swift */; };
+		49AE196DA153C92DCA1ED605372FAD26 /* Pods-Core Physics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B66D1A34011256FE3F83843BE38F17EE /* Pods-Core Physics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D61CBB8529C567746EB85805E74A94E /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049F4BA49D06E8F4C1A0DF192A1FB11 /* SideMenuManager.swift */; };
+		CA4FC8D90B7CA5B1F2EB902E03D832DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D08E79D3EDE1FB9AA0151031B8B8D6E8 /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F5E4E267C03BAC23C64C2DEC825B6 /* UISideMenuNavigationController.swift */; };
+		D49407A22B12193C69BEB6E027E8BFDF /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF7ED29543D1E78DEE7A6BB17CADE /* SideMenu-dummy.m */; };
+		D6360A57C8CE165DDA1AF0B5E0872251 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DB323BB3B2B0A52D555C01DBCD0305 /* SideMenuTransition.swift */; };
+		DFD9618C660B5D0FBAACD7850B784EC3 /* Pods-Core Physics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9CFFA8462ECAC8869B8367646F4914 /* Pods-Core Physics-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9701628568FD8C080A6CF1D42863FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55CCAF66BD0C218F969CC309B49A1C7;
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 			remoteInfo = SideMenu;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0049F4BA49D06E8F4C1A0DF192A1FB11 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		0AC3F6E2B85B64D7AED49071CEB17CA8 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
 		0CA37AE3D7ECEAB5AD76DBE88FB7BC6D /* Pods-CorePhysics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CorePhysics.debug.xcconfig"; sourceTree = "<group>"; };
 		1FEFF7ED29543D1E78DEE7A6BB17CADE /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
@@ -51,12 +73,35 @@
 		AB9D57FEECED6D8BDCE2DD9FC578D57F /* Pods-CorePhysics-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CorePhysics-acknowledgements.plist"; sourceTree = "<group>"; };
 		B2F2DE7F13FF6732C559966465F2E601 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3282AB7A7B44E4B57C77A4EB04C3B19 /* Pods-CorePhysics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CorePhysics-umbrella.h"; sourceTree = "<group>"; };
+=======
+		0127F9778D0542A16E9D79063C661B08 /* Pods-Core Physics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Core Physics.debug.xcconfig"; sourceTree = "<group>"; };
+		0AC3F6E2B85B64D7AED49071CEB17CA8 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		1437087B1FA8C80C02CEEA403AA1E398 /* Pods-Core Physics-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Core Physics-frameworks.sh"; sourceTree = "<group>"; };
+		1A9CFFA8462ECAC8869B8367646F4914 /* Pods-Core Physics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Core Physics-dummy.m"; sourceTree = "<group>"; };
+		1EBC0E7BFB36155D4FCA2873EC4E6564 /* Pods-Core Physics-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Core Physics-resources.sh"; sourceTree = "<group>"; };
+		1FEFF7ED29543D1E78DEE7A6BB17CADE /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		2347E497540BFB84B8CCD952C6C63EB6 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FF13F0BB1AB42B2F1C6A72A59BD82F /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		3EC3B1107FDE8D98C090EC4BDB55C091 /* Pods_Core_Physics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Core_Physics.framework; path = "Pods-Core Physics.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B4A1ECC3B4CC66F0947D0A08E783D6 /* Pods-Core Physics-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Core Physics-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BACFBF4B2452F40C30ED1FC144C5E6D /* Pods-Core Physics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Core Physics.release.xcconfig"; sourceTree = "<group>"; };
+		58EC1EEAD7A915F1615099E5A76353C5 /* Pods-Core Physics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Core Physics.modulemap"; sourceTree = "<group>"; };
+		606BD2B50ED98151BB84DE476A541232 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A697DF2FCE66AA6D825AB2713FAFD4E /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9DB323BB3B2B0A52D555C01DBCD0305 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
+		B66D1A34011256FE3F83843BE38F17EE /* Pods-Core Physics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Core Physics-umbrella.h"; sourceTree = "<group>"; };
+		E0445F59F661F6F6905C4ADABCAA4130 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4A3DD9C3BD0D7D2928202167B0658E /* Pods-Core Physics-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Core Physics-acknowledgements.plist"; sourceTree = "<group>"; };
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 		EA4F5E4E267C03BAC23C64C2DEC825B6 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
 		EEAAA6BFA12D55FE654249B89D709200 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6A324E319F34D41C7D0ED3E277A50CD /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+<<<<<<< HEAD
 		1B6FC7E4D964D864A43135B7DE785376 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,6 +115,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				636AA64F315437DBAC9A36AE00FFD580 /* Foundation.framework in Frameworks */,
+=======
+		429221FBCB11900EF34866D57A44BFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4FC8D90B7CA5B1F2EB902E03D832DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8ED8FBDD31221B01BD0D0B373F5A2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A0BB978AEC46C69261984EAECE22EC /* Foundation.framework in Frameworks */,
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +150,36 @@
 			path = "../Target Support Files/SideMenu";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		3B11B14AFD6F267D6072472520EC6BB8 /* Pods-Core Physics */ = {
+			isa = PBXGroup;
+			children = (
+				E0445F59F661F6F6905C4ADABCAA4130 /* Info.plist */,
+				58EC1EEAD7A915F1615099E5A76353C5 /* Pods-Core Physics.modulemap */,
+				40B4A1ECC3B4CC66F0947D0A08E783D6 /* Pods-Core Physics-acknowledgements.markdown */,
+				EA4A3DD9C3BD0D7D2928202167B0658E /* Pods-Core Physics-acknowledgements.plist */,
+				1A9CFFA8462ECAC8869B8367646F4914 /* Pods-Core Physics-dummy.m */,
+				1437087B1FA8C80C02CEEA403AA1E398 /* Pods-Core Physics-frameworks.sh */,
+				1EBC0E7BFB36155D4FCA2873EC4E6564 /* Pods-Core Physics-resources.sh */,
+				B66D1A34011256FE3F83843BE38F17EE /* Pods-Core Physics-umbrella.h */,
+				0127F9778D0542A16E9D79063C661B08 /* Pods-Core Physics.debug.xcconfig */,
+				4BACFBF4B2452F40C30ED1FC144C5E6D /* Pods-Core Physics.release.xcconfig */,
+			);
+			name = "Pods-Core Physics";
+			path = "Target Support Files/Pods-Core Physics";
+			sourceTree = "<group>";
+		};
+		481F452109F6F43A24AB01CD99D50E0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EC3B1107FDE8D98C090EC4BDB55C091 /* Pods_Core_Physics.framework */,
+				2347E497540BFB84B8CCD952C6C63EB6 /* SideMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 		4C7DECB9505A3661801AB8D77F9249EF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +201,7 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		6EF0579EDE91B45A0A6F0EC6BF39F1BE /* Pods-CorePhysics */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,12 +220,15 @@
 			path = "Target Support Files/Pods-CorePhysics";
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				4C7DECB9505A3661801AB8D77F9249EF /* Pods */,
+<<<<<<< HEAD
 				D1DA020A988A4480312901BFFF23FEE1 /* Products */,
 				AF169FEAD84802A2D8780C32EA48F198 /* Targets Support Files */,
 			);
@@ -146,6 +240,11 @@
 				6EF0579EDE91B45A0A6F0EC6BF39F1BE /* Pods-CorePhysics */,
 			);
 			name = "Targets Support Files";
+=======
+				481F452109F6F43A24AB01CD99D50E0E /* Products */,
+				E94C664647DA92D15CB85AEFFE889039 /* Targets Support Files */,
+			);
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -156,6 +255,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		D1DA020A988A4480312901BFFF23FEE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,11 +271,28 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+=======
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E94C664647DA92D15CB85AEFFE889039 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B11B14AFD6F267D6072472520EC6BB8 /* Pods-Core Physics */,
+			);
+			name = "Targets Support Files";
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+<<<<<<< HEAD
 		6A070F6DFDFF4FFA2F9C1B2798D5FAAA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,12 +306,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				E382ABB5769E926270D4EF939D030D0B /* Pods-CorePhysics-umbrella.h in Headers */,
+=======
+		5FA0534DA8C91CE0C26A1BEDDEC6C50B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AE196DA153C92DCA1ED605372FAD26 /* Pods-Core Physics-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E695432DFAF8820CC5E466E73FDF8CAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D112BAD5D2F08F5D1E48DD7DF17E05 /* SideMenu-umbrella.h in Headers */,
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
 		1B7110042494A1E66B677B3A05CA0038 /* Pods-CorePhysics */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2007906DA74CAEDFEAC571EF84684C53 /* Build configuration list for PBXNativeTarget "Pods-CorePhysics" */;
@@ -202,10 +335,20 @@
 				81307D966E43C23FE700985CE8089CEA /* Sources */,
 				E2D2F06701580D3BFED615AD6166667C /* Frameworks */,
 				A996C47686ED27E02808C1AB154172B8 /* Headers */,
+=======
+		6AC5C906B0DD96C6AAE8FC8B26B8827A /* Pods-Core Physics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46DF4FF9D972F59A3B6A804BA300FAD9 /* Build configuration list for PBXNativeTarget "Pods-Core Physics" */;
+			buildPhases = (
+				82C345E014EFFBAB9A975B14B078D301 /* Sources */,
+				429221FBCB11900EF34866D57A44BFFF /* Frameworks */,
+				5FA0534DA8C91CE0C26A1BEDDEC6C50B /* Headers */,
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 				7BF0761596A09490ABE159D648A03D44 /* PBXTargetDependency */,
 			);
 			name = "Pods-CorePhysics";
@@ -220,6 +363,22 @@
 				342DFD37703C1A85E28F687951A21F29 /* Sources */,
 				1B6FC7E4D964D864A43135B7DE785376 /* Frameworks */,
 				6A070F6DFDFF4FFA2F9C1B2798D5FAAA /* Headers */,
+=======
+				C22DD4C1C2AC1DDAD6F20FD755FFDA2D /* PBXTargetDependency */,
+			);
+			name = "Pods-Core Physics";
+			productName = "Pods-Core Physics";
+			productReference = 3EC3B1107FDE8D98C090EC4BDB55C091 /* Pods_Core_Physics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C55CCAF66BD0C218F969CC309B49A1C7 /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1574C3801E2B87F6B5F3F322DD5E89E2 /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				E7FEACE662A1A7B2AAB787870DD16F52 /* Sources */,
+				D8ED8FBDD31221B01BD0D0B373F5A2A4 /* Frameworks */,
+				E695432DFAF8820CC5E466E73FDF8CAE /* Headers */,
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 			);
 			buildRules = (
 			);
@@ -227,7 +386,11 @@
 			);
 			name = SideMenu;
 			productName = SideMenu;
+<<<<<<< HEAD
 			productReference = 3C87DDEB70AE6A62AF70B702EEADA3E9 /* SideMenu.framework */;
+=======
+			productReference = 2347E497540BFB84B8CCD952C6C63EB6 /* SideMenu.framework */;
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -247,17 +410,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+<<<<<<< HEAD
 			productRefGroup = D1DA020A988A4480312901BFFF23FEE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1B7110042494A1E66B677B3A05CA0038 /* Pods-CorePhysics */,
 				737119C1405387C2CFA8B8AC609A5996 /* SideMenu */,
+=======
+			productRefGroup = 481F452109F6F43A24AB01CD99D50E0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AC5C906B0DD96C6AAE8FC8B26B8827A /* Pods-Core Physics */,
+				C55CCAF66BD0C218F969CC309B49A1C7 /* SideMenu */,
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
 		342DFD37703C1A85E28F687951A21F29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,25 +448,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE00E61FFB7F96CFBE4A54F975137016 /* Pods-CorePhysics-dummy.m in Sources */,
+=======
+		82C345E014EFFBAB9A975B14B078D301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD9618C660B5D0FBAACD7850B784EC3 /* Pods-Core Physics-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FEACE662A1A7B2AAB787870DD16F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49407A22B12193C69BEB6E027E8BFDF /* SideMenu-dummy.m in Sources */,
+				6D61CBB8529C567746EB85805E74A94E /* SideMenuManager.swift in Sources */,
+				D6360A57C8CE165DDA1AF0B5E0872251 /* SideMenuTransition.swift in Sources */,
+				D08E79D3EDE1FB9AA0151031B8B8D6E8 /* UISideMenuNavigationController.swift in Sources */,
+				47D851353461CFE441DAC68BEC57D8EF /* UITableViewVibrantCell.swift in Sources */,
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+<<<<<<< HEAD
 		7BF0761596A09490ABE159D648A03D44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SideMenu;
 			target = 737119C1405387C2CFA8B8AC609A5996 /* SideMenu */;
 			targetProxy = 840EC176B9B408FE36D36858270C71D0 /* PBXContainerItemProxy */;
+=======
+		C22DD4C1C2AC1DDAD6F20FD755FFDA2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = C55CCAF66BD0C218F969CC309B49A1C7 /* SideMenu */;
+			targetProxy = E9701628568FD8C080A6CF1D42863FB8 /* PBXContainerItemProxy */;
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 		10A57C78275A92278BF733FFE2C28326 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6A324E319F34D41C7D0ED3E277A50CD /* SideMenu.xcconfig */;
 			buildSettings = {
+=======
+		1839C6C4BAF29E399C9ED96472524ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BACFBF4B2452F40C30ED1FC144C5E6D /* Pods-Core Physics.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -303,6 +511,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -321,6 +530,28 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+=======
+				INFOPLIST_FILE = "Target Support Files/Pods-Core Physics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Core Physics/Pods-Core Physics.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 		};
 		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -385,9 +616,48 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		20E2C8CFBA5720A0E8E3FFFDBF61DD72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0CA37AE3D7ECEAB5AD76DBE88FB7BC6D /* Pods-CorePhysics.debug.xcconfig */;
+=======
+		300031742ABFF7067434027FAE0D4E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A324E319F34D41C7D0ED3E277A50CD /* SideMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FB8B79207638269D21525B2902950E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0127F9778D0542A16E9D79063C661B08 /* Pods-Core Physics.debug.xcconfig */;
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -399,12 +669,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 				INFOPLIST_FILE = "Target Support Files/Pods-CorePhysics/Info.plist";
+=======
+				INFOPLIST_FILE = "Target Support Files/Pods-Core Physics/Info.plist";
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+<<<<<<< HEAD
 				MODULEMAP_FILE = "Target Support Files/Pods-CorePhysics/Pods-CorePhysics.modulemap";
+=======
+				MODULEMAP_FILE = "Target Support Files/Pods-Core Physics/Pods-Core Physics.modulemap";
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -420,11 +698,18 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		E24EE37D79A6B3C342E2DE17D5EF51ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 59D98B6E214298A71F0742B311A3CA81 /* Pods-CorePhysics.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+=======
+		E0EA2EAD0AB40C4F2C60F0B39A0273E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A324E319F34D41C7D0ED3E277A50CD /* SideMenu.xcconfig */;
+			buildSettings = {
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -434,6 +719,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 				INFOPLIST_FILE = "Target Support Files/Pods-CorePhysics/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -454,6 +740,26 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+=======
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 		};
 		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -513,6 +819,7 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		FF35D8ED3EAA6ABE068252906C335660 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6A324E319F34D41C7D0ED3E277A50CD /* SideMenu.xcconfig */;
@@ -554,24 +861,50 @@
 			buildConfigurations = (
 				10A57C78275A92278BF733FFE2C28326 /* Debug */,
 				FF35D8ED3EAA6ABE068252906C335660 /* Release */,
+=======
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1574C3801E2B87F6B5F3F322DD5E89E2 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0EA2EAD0AB40C4F2C60F0B39A0273E7 /* Debug */,
+				300031742ABFF7067434027FAE0D4E1E /* Release */,
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		2007906DA74CAEDFEAC571EF84684C53 /* Build configuration list for PBXNativeTarget "Pods-CorePhysics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20E2C8CFBA5720A0E8E3FFFDBF61DD72 /* Debug */,
 				E24EE37D79A6B3C342E2DE17D5EF51ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
+=======
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
 				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+<<<<<<< HEAD
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+=======
+		46DF4FF9D972F59A3B6A804BA300FAD9 /* Build configuration list for PBXNativeTarget "Pods-Core Physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB8B79207638269D21525B2902950E4 /* Debug */,
+				1839C6C4BAF29E399C9ED96472524ADB /* Release */,
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

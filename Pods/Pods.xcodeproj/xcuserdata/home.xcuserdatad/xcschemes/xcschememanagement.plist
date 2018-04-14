@@ -4,7 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+<<<<<<< HEAD
 		<key>Pods-CorePhysics.xcscheme</key>
+=======
+		<key>Pods-Core Physics.xcscheme</key>
+>>>>>>> e92cbe85eac2d35c88738c7a6679b10ba5345c27
 		<dict>
 			<key>isShown</key>
 			<false/>
