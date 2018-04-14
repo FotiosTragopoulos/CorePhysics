@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0825F13780BE95EAEC942DA2 /* Pods_CorePhysics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FBB754E8831FBEFA26998 /* Pods_CorePhysics.framework */; };
 		F439DFCC20824F52007ADBBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439DFCB20824F52007ADBBE /* AppDelegate.swift */; };
-		F439DFCE20824F52007ADBBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439DFCD20824F52007ADBBE /* ViewController.swift */; };
-		F439DFD120824F52007ADBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F439DFCF20824F52007ADBBE /* Main.storyboard */; };
 		F439DFD320824F53007ADBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F439DFD220824F53007ADBBE /* Assets.xcassets */; };
 		F439DFD620824F53007ADBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F439DFD420824F53007ADBBE /* LaunchScreen.storyboard */; };
+		F4F0099D2082586A00D5F1FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F0099C2082586A00D5F1FC /* Main.storyboard */; };
+		F4F0099F208258A100D5F1FC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F0099E208258A100D5F1FC /* MainViewController.swift */; };
+		F4F009A2208258BC00D5F1FC /* PresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F009A0208258BC00D5F1FC /* PresentedViewController.swift */; };
+		F4F009A3208258BC00D5F1FC /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F009A1208258BC00D5F1FC /* SideMenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		209469E72708563DAED487FA /* Pods-CorePhysics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorePhysics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CorePhysics/Pods-CorePhysics.debug.xcconfig"; sourceTree = "<group>"; };
+		263444F80DEF9C23F02BA793 /* Pods-CorePhysics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorePhysics.release.xcconfig"; path = "Pods/Target Support Files/Pods-CorePhysics/Pods-CorePhysics.release.xcconfig"; sourceTree = "<group>"; };
 		F439DFC820824F52007ADBBE /* CorePhysics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorePhysics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F439DFCB20824F52007ADBBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F439DFCD20824F52007ADBBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F439DFD020824F52007ADBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F439DFD220824F53007ADBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F439DFD520824F53007ADBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F439DFD720824F53007ADBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F0099C2082586A00D5F1FC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F4F0099E208258A100D5F1FC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F4F009A0208258BC00D5F1FC /* PresentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentedViewController.swift; sourceTree = "<group>"; };
+		F4F009A1208258BC00D5F1FC /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		FC7FBB754E8831FBEFA26998 /* Pods_CorePhysics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CorePhysics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0825F13780BE95EAEC942DA2 /* Pods_CorePhysics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		304F2DCE4E6E645B33392349 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC7FBB754E8831FBEFA26998 /* Pods_CorePhysics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2359DC138AFC8A14B40284F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				209469E72708563DAED487FA /* Pods-CorePhysics.debug.xcconfig */,
+				263444F80DEF9C23F02BA793 /* Pods-CorePhysics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F439DFBF20824F52007ADBBE = {
 			isa = PBXGroup;
 			children = (
 				F439DFCA20824F52007ADBBE /* CorePhysics */,
 				F439DFC920824F52007ADBBE /* Products */,
+				D2359DC138AFC8A14B40284F /* Pods */,
+				304F2DCE4E6E645B33392349 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,9 +83,11 @@
 			isa = PBXGroup;
 			children = (
 				F439DFCB20824F52007ADBBE /* AppDelegate.swift */,
-				F439DFCD20824F52007ADBBE /* ViewController.swift */,
-				F439DFCF20824F52007ADBBE /* Main.storyboard */,
+				F4F0099E208258A100D5F1FC /* MainViewController.swift */,
+				F4F009A0208258BC00D5F1FC /* PresentedViewController.swift */,
+				F4F009A1208258BC00D5F1FC /* SideMenuTableViewController.swift */,
 				F439DFD220824F53007ADBBE /* Assets.xcassets */,
+				F4F0099C2082586A00D5F1FC /* Main.storyboard */,
 				F439DFD420824F53007ADBBE /* LaunchScreen.storyboard */,
 				F439DFD720824F53007ADBBE /* Info.plist */,
 			);
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F439DFDA20824F53007ADBBE /* Build configuration list for PBXNativeTarget "CorePhysics" */;
 			buildPhases = (
+				B239B2EF4784C31B0EDA814A /* [CP] Check Pods Manifest.lock */,
 				F439DFC420824F52007ADBBE /* Sources */,
 				F439DFC520824F52007ADBBE /* Frameworks */,
 				F439DFC620824F52007ADBBE /* Resources */,
+				285E533B562A5F955A386052 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +154,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F0099D2082586A00D5F1FC /* Main.storyboard in Resources */,
 				F439DFD620824F53007ADBBE /* LaunchScreen.storyboard in Resources */,
 				F439DFD320824F53007ADBBE /* Assets.xcassets in Resources */,
-				F439DFD120824F52007ADBBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		285E533B562A5F955A386052 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CorePhysics/Pods-CorePhysics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CorePhysics/Pods-CorePhysics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B239B2EF4784C31B0EDA814A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CorePhysics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F439DFC420824F52007ADBBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F439DFCE20824F52007ADBBE /* ViewController.swift in Sources */,
+				F4F0099F208258A100D5F1FC /* MainViewController.swift in Sources */,
+				F4F009A2208258BC00D5F1FC /* PresentedViewController.swift in Sources */,
 				F439DFCC20824F52007ADBBE /* AppDelegate.swift in Sources */,
+				F4F009A3208258BC00D5F1FC /* SideMenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F439DFCF20824F52007ADBBE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F439DFD020824F52007ADBBE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F439DFD420824F53007ADBBE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,11 +343,13 @@
 		};
 		F439DFDB20824F53007ADBBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209469E72708563DAED487FA /* Pods-CorePhysics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KUPZ8W8CSU;
 				INFOPLIST_FILE = CorePhysics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +363,13 @@
 		};
 		F439DFDC20824F53007ADBBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263444F80DEF9C23F02BA793 /* Pods-CorePhysics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KUPZ8W8CSU;
 				INFOPLIST_FILE = CorePhysics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
