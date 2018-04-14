@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0825F13780BE95EAEC942DA2 /* Pods_CorePhysics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FBB754E8831FBEFA26998 /* Pods_CorePhysics.framework */; };
+		4DD7C6B4F7912D3DDFEE7612 /* Pods_CorePhysics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDB520BD6444968570436FF /* Pods_CorePhysics.framework */; };
 		F439DFCC20824F52007ADBBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439DFCB20824F52007ADBBE /* AppDelegate.swift */; };
 		F439DFD320824F53007ADBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F439DFD220824F53007ADBBE /* Assets.xcassets */; };
 		F439DFD620824F53007ADBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F439DFD420824F53007ADBBE /* LaunchScreen.storyboard */; };
@@ -18,8 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		209469E72708563DAED487FA /* Pods-CorePhysics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorePhysics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CorePhysics/Pods-CorePhysics.debug.xcconfig"; sourceTree = "<group>"; };
-		263444F80DEF9C23F02BA793 /* Pods-CorePhysics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorePhysics.release.xcconfig"; path = "Pods/Target Support Files/Pods-CorePhysics/Pods-CorePhysics.release.xcconfig"; sourceTree = "<group>"; };
+		3C158EBE741C892F5FE18CDE /* Pods-CorePhysics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorePhysics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CorePhysics/Pods-CorePhysics.debug.xcconfig"; sourceTree = "<group>"; };
+		8CDB520BD6444968570436FF /* Pods_CorePhysics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CorePhysics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E157C56BA7760E98E01A1F /* Pods-CorePhysics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CorePhysics.release.xcconfig"; path = "Pods/Target Support Files/Pods-CorePhysics/Pods-CorePhysics.release.xcconfig"; sourceTree = "<group>"; };
 		F439DFC820824F52007ADBBE /* CorePhysics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorePhysics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F439DFCB20824F52007ADBBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F439DFD220824F53007ADBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		F4F0099E208258A100D5F1FC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F4F009A0208258BC00D5F1FC /* PresentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentedViewController.swift; sourceTree = "<group>"; };
 		F4F009A1208258BC00D5F1FC /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
-		FC7FBB754E8831FBEFA26998 /* Pods_CorePhysics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CorePhysics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,28 +37,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0825F13780BE95EAEC942DA2 /* Pods_CorePhysics.framework in Frameworks */,
+				4DD7C6B4F7912D3DDFEE7612 /* Pods_CorePhysics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		304F2DCE4E6E645B33392349 /* Frameworks */ = {
+		355315E6A204AE85589F3AF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC7FBB754E8831FBEFA26998 /* Pods_CorePhysics.framework */,
+				8CDB520BD6444968570436FF /* Pods_CorePhysics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D2359DC138AFC8A14B40284F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				209469E72708563DAED487FA /* Pods-CorePhysics.debug.xcconfig */,
-				263444F80DEF9C23F02BA793 /* Pods-CorePhysics.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		F439DFBF20824F52007ADBBE = {
@@ -66,8 +57,8 @@
 			children = (
 				F439DFCA20824F52007ADBBE /* CorePhysics */,
 				F439DFC920824F52007ADBBE /* Products */,
-				D2359DC138AFC8A14B40284F /* Pods */,
-				304F2DCE4E6E645B33392349 /* Frameworks */,
+				FEF8AB2D4935E53BC6A6907B /* Pods */,
+				355315E6A204AE85589F3AF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +85,15 @@
 			path = CorePhysics;
 			sourceTree = "<group>";
 		};
+		FEF8AB2D4935E53BC6A6907B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C158EBE741C892F5FE18CDE /* Pods-CorePhysics.debug.xcconfig */,
+				A8E157C56BA7760E98E01A1F /* Pods-CorePhysics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,11 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F439DFDA20824F53007ADBBE /* Build configuration list for PBXNativeTarget "CorePhysics" */;
 			buildPhases = (
-				B239B2EF4784C31B0EDA814A /* [CP] Check Pods Manifest.lock */,
+				FC0459684B6B778E0352F7B1 /* [CP] Check Pods Manifest.lock */,
 				F439DFC420824F52007ADBBE /* Sources */,
 				F439DFC520824F52007ADBBE /* Frameworks */,
 				F439DFC620824F52007ADBBE /* Resources */,
-				285E533B562A5F955A386052 /* [CP] Embed Pods Frameworks */,
+				E96CF522D11E3BCAC40374C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,7 +163,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		285E533B562A5F955A386052 /* [CP] Embed Pods Frameworks */ = {
+		E96CF522D11E3BCAC40374C2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,7 +181,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CorePhysics/Pods-CorePhysics-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B239B2EF4784C31B0EDA814A /* [CP] Check Pods Manifest.lock */ = {
+		FC0459684B6B778E0352F7B1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,17 +343,14 @@
 		};
 		F439DFDB20824F53007ADBBE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 209469E72708563DAED487FA /* Pods-CorePhysics.debug.xcconfig */;
+			baseConfigurationReference = 3C158EBE741C892F5FE18CDE /* Pods-CorePhysics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KUPZ8W8CSU;
 				INFOPLIST_FILE = CorePhysics/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fotiostragopoulos.myds.me.CorePhysics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -363,17 +360,14 @@
 		};
 		F439DFDC20824F53007ADBBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 263444F80DEF9C23F02BA793 /* Pods-CorePhysics.release.xcconfig */;
+			baseConfigurationReference = A8E157C56BA7760E98E01A1F /* Pods-CorePhysics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KUPZ8W8CSU;
 				INFOPLIST_FILE = CorePhysics/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fotiostragopoulos.myds.me.CorePhysics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
