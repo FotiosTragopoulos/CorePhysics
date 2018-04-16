@@ -7,7 +7,9 @@
 
 import SideMenu
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController, TableDataDelegate {
+    
+    @IBOutlet weak var label: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +22,7 @@ class MainViewController: UIViewController {
         SideMenuManager.default.menuLeftNavigationController = storyboard!.instantiateViewController(withIdentifier: "LeftMenuNavigationController") as? UISideMenuNavigationController
         SideMenuManager.default.menuRightNavigationController = storyboard!.instantiateViewController(withIdentifier: "RightMenuNavigationController") as? UISideMenuNavigationController
         
-        // Enable gestures. The left and/or right menus must be set up above for these to work.
-        // Note that these continue to work on the Navigation Controller independent of the View Controller it displays!
+        // Customise the menus
         SideMenuManager.default.menuAddPanGestureToPresent(toView: self.navigationController!.navigationBar)
         SideMenuManager.default.menuAddScreenEdgePanGesturesToPresent(toView: self.navigationController!.view)
         
@@ -34,5 +35,19 @@ class MainViewController: UIViewController {
         SideMenuManager.default.menuAnimationBackgroundColor = UIColor(patternImage: UIImage(named: "background")!)
     }
 
+    // Implement the protocol's function
+    func dataTransfer(data: Int) {
+        label.text = "\(data)"
+    }
+    
+    // Prepare for segue with navigation view controller and delegate
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showSideMenu" {
+            let sideMenuTableViewController = segue.destination as! UINavigationController
+            let destinatioViewController = sideMenuTableViewController.viewControllers.first as! SideMenuTableViewController
+            destinatioViewController.delegate = self
+            
+        }
+    }
 }
 
