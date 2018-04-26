@@ -1,6 +1,8 @@
-MIT License
+## MIT License
 
-Copyright (c) 2018 Fotios Tragopoulos
+![MIT License](https://upload.wikimedia.org/wikipedia/commons/c/c3/License_icon-mit.svg)
+
+### Copyright (c) 2018 Fotios Tragopoulos
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
