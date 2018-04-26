@@ -2,10 +2,10 @@
 platform :ios, '11.0'
 
 
-target 'CorePhysics' do
+target 'Core Physics' do
   use_frameworks!
 
-  # Pods for CorePhysics
+  # Pods for Core Physics
   pod 'SideMenu', '~> 3.1'
-
+  pod 'NVActivityIndicatorView'
 end

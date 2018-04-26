@@ -1,16 +1,22 @@
 PODS:
+  - NVActivityIndicatorView (4.2.0):
+    - NVActivityIndicatorView/Presenter (= 4.2.0)
+  - NVActivityIndicatorView/Presenter (4.2.0)
   - SideMenu (3.1.5)
 
 DEPENDENCIES:
+  - NVActivityIndicatorView
   - SideMenu (~> 3.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - NVActivityIndicatorView
     - SideMenu
 
 SPEC CHECKSUMS:
+  NVActivityIndicatorView: 75c9634073e03b31d7e2748cd2417feab1206195
   SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
 
-PODFILE CHECKSUM: 9646821670e3ad60122a90ff5dbbfd4de01cc1c3
+PODFILE CHECKSUM: 0a6748ab08422c7338447c1b6e25d30b3916997e
 
 COCOAPODS: 1.5.0
