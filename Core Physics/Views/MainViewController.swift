@@ -17,8 +17,11 @@ class MainViewController: UIViewController, TableDataDelegate, UITableViewDelega
     @IBOutlet weak var mainView: UIView!
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var activityIndicatorView: NVActivityIndicatorView!
-    
+
+//    var cellTitleToPass: String!
+    var sectionLabel: UILabel!
     var cellLabel : Int?
+    
     private var _buttonNumber: Int!
     
     var buttonNumber: Int {
@@ -74,7 +77,7 @@ class MainViewController: UIViewController, TableDataDelegate, UITableViewDelega
         })
         
         let attrs = [
-            NSAttributedStringKey.font: UIFont(name: "Courier", size: 18)!
+            NSAttributedStringKey.font: UIFont(name: "Courier", size: 14)!
         ]
         UINavigationBar.appearance().titleTextAttributes = attrs
     
@@ -165,13 +168,11 @@ class MainViewController: UIViewController, TableDataDelegate, UITableViewDelega
         }
     }
     
-    // Prepare for segue with Navigation View Controller and delegate
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showSideMenu" {
-            let sideMenuTableViewController = segue.destination as! UINavigationController
-            let destinatioViewController = sideMenuTableViewController.viewControllers.first as! SideMenuTableViewController
-            destinatioViewController.delegate = self
-        }
+
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        print(section)
+        return "Section \(section)"
     }
     
     // This is the size of our header sections that we will use later on.
@@ -220,6 +221,7 @@ class MainViewController: UIViewController, TableDataDelegate, UITableViewDelega
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         if title == HeaderTitle.Mechanics.rawValue {
+            
             let tableSection = MechanicsTableSection(rawValue: section)
             let mechanicData = mechanicsData[tableSection!]
             return (mechanicData?.count)!
@@ -279,58 +281,58 @@ class MainViewController: UIViewController, TableDataDelegate, UITableViewDelega
         
         let view = UIView(frame: CGRect(x: 0, y: 0, width: tableView.bounds.width, height: SectionHeaderHeight))
         view.backgroundColor = UIColor(red: 88.0/255.0, green: 88.0/255.0, blue: 88.0/255.0, alpha: 1)
-        let label = UILabel(frame: CGRect(x: 15, y: 0, width: tableView.bounds.width - 30, height: SectionHeaderHeight))
-        label.font = UIFont.boldSystemFont(ofSize: 18)
-        label.textColor = UIColor.white
+        sectionLabel = UILabel(frame: CGRect(x: 15, y: 0, width: tableView.bounds.width - 30, height: SectionHeaderHeight))
+        sectionLabel.font = UIFont.boldSystemFont(ofSize: 18)
+        sectionLabel.textColor = UIColor.white
 
         if title == HeaderTitle.Mechanics.rawValue {
             let tableSection = MechanicsTableSection(rawValue: section)
             switch tableSection {
             case .Kinematics?:
-                label.text = "Kinematics"
+                sectionLabel.text = "Kinematics"
             case .Dynamics?:
-                label.text = "Dynamics"
+                sectionLabel.text = "Dynamics"
             case .Energy?:
-                label.text = "Energy"
+                sectionLabel.text = "Energy"
             case .RotationalMotion?:
-                label.text = "Rotational Motion"
+                sectionLabel.text = "Rotational Motion"
             case .Fluids?:
-                label.text = "Fluids"
+                sectionLabel.text = "Fluids"
             default:
-                label.text = ""
+                sectionLabel.text = ""
             }
         } else if title == HeaderTitle.Electricity.rawValue {
             let tableSection = ElectricityTableSection(rawValue: section)
             switch tableSection {
             case .Electrostatics?:
-                label.text = "Electrostatics"
+                sectionLabel.text = "Electrostatics"
             case .ElectricCurrent?:
-                label.text = "Electric Current"
+                sectionLabel.text = "Electric Current"
             case .Magnetodynamics?:
-                label.text = "Magnetodynamics"
+                sectionLabel.text = "Magnetodynamics"
             default:
-                label.text = ""
+                sectionLabel.text = ""
             }
         } else if title == HeaderTitle.Waves.rawValue {
             let tableSection = WavesTableSection(rawValue: section)
             switch tableSection {
             case .Acoustics_Optics?:
-                label.text = "Acoustics Optics"
+                sectionLabel.text = "Acoustics Optics"
             default:
-                label.text = ""
+                sectionLabel.text = ""
             }
         } else if title == HeaderTitle.Other.rawValue {
             let tableSection = OtherTableSection(rawValue: section)
             switch tableSection {
             case .Thermal_Physics?:
-                label.text = "Thermal Physics"
+                sectionLabel.text = "Thermal Physics"
             case .Modern_Physics?:
-                label.text = "Modern Physics"
+                sectionLabel.text = "Modern Physics"
             default:
-                label.text = ""
+                sectionLabel.text = ""
             }
         }
-        view.addSubview(label)
+        view.addSubview(sectionLabel)
         return view
     }
     
@@ -379,12 +381,6 @@ class MainViewController: UIViewController, TableDataDelegate, UITableViewDelega
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        cellLabel = indexPath.row
-//        performSegue(withIdentifier: "GoToCalculator", sender: cellLabel)
-        tableView.deselectRow(at: indexPath, animated: true)
-    }
-    
     // Define the menus
     fileprivate func setupSideMenu() {
         SideMenuManager.default.menuLeftNavigationController = storyboard!.instantiateViewController(withIdentifier: "LeftMenuNavigationController") as? UISideMenuNavigationController
@@ -405,5 +401,39 @@ class MainViewController: UIViewController, TableDataDelegate, UITableViewDelega
         SideMenuManager.default.menuAnimationBackgroundColor = UIColor(patternImage: UIImage(named: "background")!)
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        // Send Data From UITableViewController to DetailViewController
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let targetViewController = storyBoard.instantiateViewController(withIdentifier: "CalculatorViewController") as! CalculatorViewController
+        
+        if title == HeaderTitle.Mechanics.rawValue {
+            let tableSection = MechanicsTableSection(rawValue: indexPath.section)
+            let mainTitle = mechanicsData[tableSection!]?[indexPath.row]
+            targetViewController.calculatorLabel = (mainTitle?["title"])!
+        } else if title == HeaderTitle.Electricity.rawValue {
+            let tableSection = ElectricityTableSection(rawValue: indexPath.section)
+            let mainTitle = electricityData[tableSection!]?[indexPath.row]
+            targetViewController.calculatorLabel = (mainTitle?["title"])!
+        } else if title == HeaderTitle.Waves.rawValue {
+            let tableSection = WavesTableSection(rawValue: indexPath.section)
+            let mainTitle = wavesData[tableSection!]?[indexPath.row]
+            targetViewController.calculatorLabel = (mainTitle?["title"])!
+        } else if title == HeaderTitle.Other.rawValue {
+            let tableSection = OtherTableSection(rawValue: indexPath.section)
+            let mainTitle = otherData[tableSection!]?[indexPath.row]
+            targetViewController.calculatorLabel = (mainTitle?["title"])!
+        }
+        self.navigationController?.pushViewController(targetViewController, animated: true)
+    }
+    
+    // Prepare for segue with Navigation View Controller and delegate
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showSideMenu" {
+            let sideMenuTableViewController = segue.destination as! UINavigationController
+            let destinatioViewController = sideMenuTableViewController.viewControllers.first as! SideMenuTableViewController
+            destinatioViewController.delegate = self
+        } 
+    }
 }
 
