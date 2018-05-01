@@ -7,5 +7,5 @@ target 'Core Physics' do
 
   # Pods for Core Physics
   pod 'SideMenu', '~> 3.1'
-  pod 'NVActivityIndicatorView'
+  pod 'NVActivityIndicatorView', '~> 4.2'  
 end

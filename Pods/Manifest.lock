@@ -5,7 +5,7 @@ PODS:
   - SideMenu (3.1.5)
 
 DEPENDENCIES:
-  - NVActivityIndicatorView
+  - NVActivityIndicatorView (~> 4.2)
   - SideMenu (~> 3.1)
 
 SPEC REPOS:
@@ -17,6 +17,6 @@ SPEC CHECKSUMS:
   NVActivityIndicatorView: 75c9634073e03b31d7e2748cd2417feab1206195
   SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
 
-PODFILE CHECKSUM: 0a6748ab08422c7338447c1b6e25d30b3916997e
+PODFILE CHECKSUM: 59c5d18520a3c711a6f4691e6ea8d8932b916544
 
 COCOAPODS: 1.5.0

@@ -171,7 +171,6 @@ class MainViewController: UIViewController, TableDataDelegate, UITableViewDelega
 
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        print(section)
         return "Section \(section)"
     }
     
@@ -221,7 +220,6 @@ class MainViewController: UIViewController, TableDataDelegate, UITableViewDelega
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         if title == HeaderTitle.Mechanics.rawValue {
-            
             let tableSection = MechanicsTableSection(rawValue: section)
             let mechanicData = mechanicsData[tableSection!]
             return (mechanicData?.count)!
@@ -280,11 +278,13 @@ class MainViewController: UIViewController, TableDataDelegate, UITableViewDelega
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
         let view = UIView(frame: CGRect(x: 0, y: 0, width: tableView.bounds.width, height: SectionHeaderHeight))
-        view.backgroundColor = UIColor(red: 88.0/255.0, green: 88.0/255.0, blue: 88.0/255.0, alpha: 1)
+        view.backgroundColor = UIColor(red: 89/255, green: 89/255, blue: 89/255, alpha: 1)
         sectionLabel = UILabel(frame: CGRect(x: 15, y: 0, width: tableView.bounds.width - 30, height: SectionHeaderHeight))
-        sectionLabel.font = UIFont.boldSystemFont(ofSize: 18)
+//        sectionLabel.font = UIFont.boldSystemFont(ofSize: 18)
+        sectionLabel.font = UIFont(name: "Courier", size: 16)
         sectionLabel.textColor = UIColor.white
 
+        
         if title == HeaderTitle.Mechanics.rawValue {
             let tableSection = MechanicsTableSection(rawValue: section)
             switch tableSection {
