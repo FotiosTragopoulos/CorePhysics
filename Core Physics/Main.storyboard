@@ -361,120 +361,168 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ad9-YB-hpw">
-                                <rect key="frame" x="32" y="64" width="311" height="30"/>
-                                <color key="backgroundColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="XLS-So-9FH"/>
-                                </constraints>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="alert" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6kc-HS-ibp">
-                                <rect key="frame" x="32" y="102" width="311" height="30"/>
-                                <color key="backgroundColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="alert" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CZs-FL-r3w">
-                                <rect key="frame" x="32" y="140" width="311" height="30"/>
-                                <color key="backgroundColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="alert" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eny-Hf-XKB">
-                                <rect key="frame" x="32" y="178" width="311" height="30"/>
-                                <color key="backgroundColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="alert" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LKe-JU-VJ9">
-                                <rect key="frame" x="32" y="216" width="311" height="30"/>
-                                <color key="backgroundColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="alert" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
-                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="jhh-6z-hUY">
+                                <rect key="frame" x="32" y="64" width="311" height="238"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="Ad9-YB-hpw" customClass="YoshikoTextField" customModule="Core_Physics">
+                                        <rect key="frame" x="0.0" y="0.0" width="311" height="38"/>
+                                        <color key="backgroundColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="YOd-PD-JiN"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="alert" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="lTv-yt-QRq" customClass="YoshikoTextField" customModule="Core_Physics">
+                                        <rect key="frame" x="0.0" y="50" width="311" height="38"/>
+                                        <color key="backgroundColor" red="0.54117647059999996" green="0.54117647059999996" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="qWP-KS-6lz"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="alert" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="dxt-Ib-Qtr" customClass="YoshikoTextField" customModule="Core_Physics">
+                                        <rect key="frame" x="0.0" y="100" width="311" height="38"/>
+                                        <color key="backgroundColor" red="0.54117647059999996" green="0.54117647059999996" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="eVk-gh-uXd"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="alert" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="7ux-PZ-M9b" customClass="YoshikoTextField" customModule="Core_Physics">
+                                        <rect key="frame" x="0.0" y="150" width="311" height="38"/>
+                                        <color key="backgroundColor" red="0.54117647059999996" green="0.54117647059999996" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="l7b-Vg-Jay"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="alert" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="G2w-Li-MAy" customClass="YoshikoTextField" customModule="Core_Physics">
+                                        <rect key="frame" x="0.0" y="200" width="311" height="38"/>
+                                        <color key="backgroundColor" red="0.54117647059999996" green="0.54117647059999996" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="mFT-MC-9ZL"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" keyboardAppearance="alert" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                            </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Rag-oI-bLC">
-                                <rect key="frame" x="32" y="266" width="311" height="26"/>
+                                <rect key="frame" x="32" y="314" width="311" height="38"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dic-bH-93v">
-                                        <rect key="frame" x="0.0" y="0.0" width="101" height="26"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="101" height="38"/>
                                         <color key="backgroundColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="14"/>
                                         <state key="normal" title="Calculate">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EP6-4N-fjR">
-                                        <rect key="frame" x="105" y="0.0" width="101" height="26"/>
-                                        <color key="backgroundColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="14"/>
-                                        <state key="normal" title="Functions">
-                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AD2-Ao-dXb">
-                                        <rect key="frame" x="210" y="0.0" width="101" height="26"/>
+                                        <rect key="frame" x="105" y="0.0" width="101" height="38"/>
                                         <color key="backgroundColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="14"/>
                                         <state key="normal" title="Reset">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EP6-4N-fjR">
+                                        <rect key="frame" x="210" y="0.0" width="101" height="38"/>
+                                        <color key="backgroundColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="14"/>
+                                        <state key="normal" title="Functions">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="74L-1Q-M2F"/>
+                                </constraints>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nGp-03-HJx">
-                                <rect key="frame" x="32" y="312" width="311" height="446"/>
+                                <rect key="frame" x="32" y="364" width="311" height="394"/>
                                 <color key="backgroundColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.32549019607843138" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="CZs-FL-r3w" secondAttribute="trailing" constant="16" id="0rS-1V-RA8"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Ad9-YB-hpw" secondAttribute="trailing" constant="16" id="5Xq-99-Xil"/>
-                            <constraint firstItem="Rag-oI-bLC" firstAttribute="top" secondItem="LKe-JU-VJ9" secondAttribute="bottom" constant="20" id="5cq-84-2zh"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="nGp-03-HJx" secondAttribute="trailing" constant="16" id="64H-wc-gVz"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Rag-oI-bLC" secondAttribute="trailing" constant="16" id="8cF-Mg-Iyp"/>
-                            <constraint firstItem="eny-Hf-XKB" firstAttribute="top" secondItem="CZs-FL-r3w" secondAttribute="bottom" constant="8" id="C4e-zo-pPk"/>
-                            <constraint firstItem="6kc-HS-ibp" firstAttribute="leading" secondItem="rPe-X6-6Pc" secondAttribute="leadingMargin" constant="16" id="ELv-zP-puD"/>
-                            <constraint firstItem="LKe-JU-VJ9" firstAttribute="leading" secondItem="rPe-X6-6Pc" secondAttribute="leadingMargin" constant="16" id="I9W-oE-6en"/>
-                            <constraint firstItem="eny-Hf-XKB" firstAttribute="leading" secondItem="rPe-X6-6Pc" secondAttribute="leadingMargin" constant="16" id="IyG-Gj-L9X"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="6kc-HS-ibp" secondAttribute="trailing" constant="16" id="MF2-yB-hJf"/>
-                            <constraint firstItem="Ad9-YB-hpw" firstAttribute="leading" secondItem="rPe-X6-6Pc" secondAttribute="leadingMargin" constant="16" id="QeE-y7-9Fm"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="LKe-JU-VJ9" secondAttribute="trailing" constant="16" id="V05-a0-NOf"/>
-                            <constraint firstItem="Ad9-YB-hpw" firstAttribute="top" secondItem="iLT-yG-MYS" secondAttribute="bottom" constant="20" id="WQb-N9-oHC"/>
-                            <constraint firstItem="nGp-03-HJx" firstAttribute="top" secondItem="Rag-oI-bLC" secondAttribute="bottom" constant="20" id="bEh-Sj-skq"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="eny-Hf-XKB" secondAttribute="trailing" constant="16" id="c8J-Cg-Hgy"/>
-                            <constraint firstItem="Rag-oI-bLC" firstAttribute="leading" secondItem="rPe-X6-6Pc" secondAttribute="leadingMargin" constant="16" id="cZT-Xh-xyl"/>
-                            <constraint firstItem="CZs-FL-r3w" firstAttribute="top" secondItem="6kc-HS-ibp" secondAttribute="bottom" constant="8" id="h8a-oU-azl"/>
-                            <constraint firstItem="nGp-03-HJx" firstAttribute="leading" secondItem="rPe-X6-6Pc" secondAttribute="leadingMargin" constant="16" id="jyc-dq-K3A"/>
-                            <constraint firstItem="CZs-FL-r3w" firstAttribute="leading" secondItem="rPe-X6-6Pc" secondAttribute="leadingMargin" constant="16" id="lHI-lV-raE"/>
-                            <constraint firstItem="1Vx-Nn-BOm" firstAttribute="top" secondItem="nGp-03-HJx" secondAttribute="bottom" constant="20" id="oUR-xK-OFV"/>
-                            <constraint firstItem="6kc-HS-ibp" firstAttribute="top" secondItem="Ad9-YB-hpw" secondAttribute="bottom" constant="8" id="oVZ-JY-a23"/>
-                            <constraint firstItem="LKe-JU-VJ9" firstAttribute="top" secondItem="eny-Hf-XKB" secondAttribute="bottom" constant="8" id="wjq-c0-X0Q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nGp-03-HJx" secondAttribute="trailing" constant="16" id="4On-uL-SoQ"/>
+                            <constraint firstItem="1Vx-Nn-BOm" firstAttribute="top" secondItem="nGp-03-HJx" secondAttribute="bottom" constant="20" id="4dz-3x-b5G"/>
+                            <constraint firstItem="nGp-03-HJx" firstAttribute="top" secondItem="Rag-oI-bLC" secondAttribute="bottom" constant="12" id="MNx-aV-iwF"/>
+                            <constraint firstItem="Rag-oI-bLC" firstAttribute="leading" secondItem="rPe-X6-6Pc" secondAttribute="leadingMargin" constant="16" id="S5F-xD-CWv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jhh-6z-hUY" secondAttribute="trailing" constant="16" id="Zvc-7P-sn9"/>
+                            <constraint firstItem="nGp-03-HJx" firstAttribute="leading" secondItem="rPe-X6-6Pc" secondAttribute="leadingMargin" constant="16" id="dEm-ZF-dZR"/>
+                            <constraint firstItem="jhh-6z-hUY" firstAttribute="top" secondItem="iLT-yG-MYS" secondAttribute="bottom" constant="20" id="ghK-yP-Zfb"/>
+                            <constraint firstItem="jhh-6z-hUY" firstAttribute="leading" secondItem="rPe-X6-6Pc" secondAttribute="leadingMargin" constant="16" id="iNn-CB-77b"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rag-oI-bLC" secondAttribute="trailing" constant="16" id="o4v-Tl-jK1"/>
+                            <constraint firstItem="Rag-oI-bLC" firstAttribute="top" secondItem="jhh-6z-hUY" secondAttribute="bottom" constant="12" id="vXn-TB-qXZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dpE-eE-huv"/>
                     <connections>
                         <outlet property="calculateButton" destination="Dic-bH-93v" id="EAX-fk-R4X"/>
-                        <outlet property="emailButton" destination="EP6-4N-fjR" id="41l-y6-WnQ"/>
+                        <outlet property="functionsButton" destination="EP6-4N-fjR" id="VVi-3S-nUR"/>
                         <outlet property="imagePresenterView" destination="nGp-03-HJx" id="Nlz-an-tfK"/>
                         <outlet property="resetButton" destination="AD2-Ao-dXb" id="HEO-ya-RE5"/>
                         <outlet property="textField_1" destination="Ad9-YB-hpw" id="n0h-bk-d0h"/>
-                        <outlet property="textField_2" destination="6kc-HS-ibp" id="qIl-1Q-ihL"/>
-                        <outlet property="textField_3" destination="CZs-FL-r3w" id="o0x-Yu-3Jf"/>
-                        <outlet property="textField_4" destination="eny-Hf-XKB" id="qRo-el-Ta8"/>
-                        <outlet property="textField_5" destination="LKe-JU-VJ9" id="VIG-kn-qL8"/>
+                        <outlet property="textField_2" destination="lTv-yt-QRq" id="dI3-Pn-zhy"/>
+                        <outlet property="textField_3" destination="dxt-Ib-Qtr" id="Xaw-Rg-Izh"/>
+                        <outlet property="textField_4" destination="7ux-PZ-M9b" id="iGQ-re-B6a"/>
+                        <outlet property="textField_5" destination="G2w-Li-MAy" id="jsn-FK-m2c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Zw-vj-9x4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135" y="1155.6338028169014"/>
+            <point key="canvasLocation" x="136.80000000000001" y="1316.7487684729065"/>
         </scene>
         <!--Side Menu Navigation Controller-->
         <scene sceneID="kei-0w-mFw">
@@ -489,7 +537,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mJs-vW-9xh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="961" y="703"/>
+            <point key="canvasLocation" x="962" y="919"/>
         </scene>
         <!--Side Menu Table View Controller-->
         <scene sceneID="l9t-dY-QwR">
@@ -651,7 +699,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5D0-e6-eHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1694" y="703"/>
+            <point key="canvasLocation" x="1695" y="919"/>
         </scene>
     </scenes>
     <resources>
