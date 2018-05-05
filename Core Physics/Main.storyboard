@@ -466,6 +466,9 @@
                                         <state key="normal" title="Calculate">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="calculateButtonActionWithSender:" destination="v7C-Ic-qeK" eventType="touchUpInside" id="FGG-dL-dI9"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AD2-Ao-dXb">
                                         <rect key="frame" x="105" y="0.0" width="101" height="38"/>
@@ -522,7 +525,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Zw-vj-9x4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="1316.7487684729065"/>
+            <point key="canvasLocation" x="137" y="1110"/>
         </scene>
         <!--Side Menu Navigation Controller-->
         <scene sceneID="kei-0w-mFw">
@@ -537,7 +540,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mJs-vW-9xh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="962" y="919"/>
+            <point key="canvasLocation" x="961" y="717"/>
         </scene>
         <!--Side Menu Table View Controller-->
         <scene sceneID="l9t-dY-QwR">
@@ -699,7 +702,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5D0-e6-eHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1695" y="919"/>
+            <point key="canvasLocation" x="1694" y="717"/>
         </scene>
     </scenes>
     <resources>

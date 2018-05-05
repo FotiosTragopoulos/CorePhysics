@@ -114,11 +114,10 @@ import UIKit
         placeholderLabel.textAlignment = textAlignment
 
         if isFirstResponder || text!.isNotEmpty {
-            placeholderLabel.font = placeholderFontFromFontAndPercentageOfOriginalSize(font: font!, percentageOfOriginalSize: placeholderFontScale * 1)
-//            placeholderLabel.text = placeholder?.uppercased()
+            placeholderLabel.font = placeholderFontFromFontAndPercentageOfOriginalSize(font: UIFont(name: "Courier", size: 12.0)!, percentageOfOriginalSize: placeholderFontScale * 1)
             placeholderLabel.textColor = UIColor.white
         } else {
-            placeholderLabel.font = placeholderFontFromFontAndPercentageOfOriginalSize(font: font!, percentageOfOriginalSize: placeholderFontScale)
+            placeholderLabel.font = placeholderFontFromFontAndPercentageOfOriginalSize(font: UIFont(name: "Courier", size: 12.0)!, percentageOfOriginalSize: placeholderFontScale)
             placeholderLabel.textColor = UIColor.white
         }
     }
