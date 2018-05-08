@@ -13,8 +13,8 @@ import UIKit
  */
 @IBDesignable open class YoshikoTextField: TextFieldEffects {
     private let borderLayer = CALayer()
-    private let textFieldInsets = CGPoint(x: 10, y: 0)
-    private let placeHolderInsets = CGPoint(x: 10, y: 0)
+    private let textFieldInsets = CGPoint(x: 0, y: 0)
+    private let placeHolderInsets = CGPoint(x: 0, y: 0)
     
     /**
      The size of the border.

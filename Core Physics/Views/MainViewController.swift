@@ -114,28 +114,23 @@ class MainViewController: UIViewController, TableDataDelegate, UITableViewDelega
         if buttonNumber == 1 {
             title = HeaderTitle.Mechanics.rawValue
             webView.isHidden = true
-            mainView.isHidden = true
             tableView.isHidden = false
         } else if buttonNumber == 2 {
             title = HeaderTitle.Electricity.rawValue
             tableView.isHidden = false
             webView.isHidden = true
-            mainView.isHidden = true
         } else if buttonNumber == 3 {
             title = HeaderTitle.Waves.rawValue
             tableView.isHidden = false
             webView.isHidden = true
-            mainView.isHidden = true
         } else if buttonNumber == 4 {
             title = HeaderTitle.Other.rawValue
             tableView.isHidden = false
             webView.isHidden = true
-            mainView.isHidden = true
         } else if buttonNumber == 5 {
             title = HeaderTitle.Githbub.rawValue
             tableView.isHidden = true
             webView.isHidden = true
-            mainView.isHidden = true
             let url: URL = URL(string: "https://github.com/FotiosTragopoulos")!
             let urlRequest: URLRequest = URLRequest(url: url)
             webView.load(urlRequest)
@@ -144,7 +139,6 @@ class MainViewController: UIViewController, TableDataDelegate, UITableViewDelega
             title = HeaderTitle.Portfolio.rawValue
             tableView.isHidden = true
             webView.isHidden = true
-            mainView.isHidden = true
             let url: URL = URL(string: "http://fotiostragopoulos.myds.me")!
             let urlRequest: URLRequest = URLRequest(url: url)
             webView.load(urlRequest)
@@ -153,14 +147,12 @@ class MainViewController: UIViewController, TableDataDelegate, UITableViewDelega
             title = HeaderTitle.Contact.rawValue
             tableView.isHidden = true
             webView.isHidden = true
-            mainView.isHidden = false
             messageLabel.text = "Thanks for contacting Core Physics Support. You can excpect for a reply in 24 hours."
             emailSend()
         } else if buttonNumber == 8 {
             title = HeaderTitle.Feedback.rawValue
             tableView.isHidden = true
             webView.isHidden = true
-            mainView.isHidden = true
             let url: URL = URL(string: "https://goo.gl/forms/DlsGIueAX5XfDKbu2")!
             let urlRequest: URLRequest = URLRequest(url: url)
             webView.load(urlRequest)
